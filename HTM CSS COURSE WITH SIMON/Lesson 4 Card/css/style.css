@@ -1,0 +1,41 @@
+/* Browser rest */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(224, 222, 222);
+  height: 100vh;
+  padding: 100px 300px;
+}
+.card {
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.top {
+  background-color: blue;
+  height: 100px;
+}
+.middle img {
+  border-radius: 50%;
+  width: 100px;
+  border: 2px solid white;
+  margin-top: -50px;
+}
+
+.middle h2 {
+  margin: 10px 0;
+}
+.middle p {
+  margin: 5px 0;
+}
+.bottom {
+  padding-bottom: 50px;
+}
+.bottom a {
+  margin-right: 3px;
+}
